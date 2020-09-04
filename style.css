@@ -1,0 +1,87 @@
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px; 
+}
+body {
+    background-color:white;
+}
+
+.container {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(166, 167, 165);
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+    float: left; 
+}
+    
+
+#p1 {
+    background-color: rgba(250, 128, 114, 0.952);
+    border: 1px solid black;
+    float: right;
+    padding: 10px;
+    margin: auto;
+
+
+}
+#p2 {
+    background-color: rgb(88, 134, 123);
+    border: 1px solid black;
+    float: right;
+    padding: 10px;
+    margin: auto;
+}
+#p3 {
+    background-color: rgb(0, 129, 0);
+    border: 1px solid black;
+    float: right;
+    padding: 10px;
+    margin: auto;
+    
+}
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+    clear: right;
+}
+
+/* Desktop View */
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33%;
+  }
+}
+
+/* Tablet View */
+
+@media (min-width: 768px) and (max-width: 991px){
+  .col-md-6 col-md-12 {
+    float: left;
+    width: 100%;
+  }
+   .col-md-6{
+   width: 50%;
+ }
+  .col-md-12{
+   width: 100%;
+ }
+}
+
+/* Mobile View */
+
+@media (max-width: 767px){
+  .col-sm-12{
+    width: 80%;
+    float: left;
+  }
+}
